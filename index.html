@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Interactive Quiz App</h1>
+        <div class="start-screen" id="start-screen">
+            <button id="start-btn" class="btn">Play Quiz</button>
+        </div>
+        <div class="quiz" id="quiz" style="display: none;">
+            <div id="progress">Question 1 of 5</div>
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons" class="btn-container">
+                <!-- Buttons will be dynamically added -->
+            </div>
+            <div class="flex-row">
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
