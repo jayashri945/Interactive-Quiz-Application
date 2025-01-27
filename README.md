@@ -45,6 +45,11 @@ Individuals can use the app to prepare for exams, challenge themselves, or just 
 Why It Stands Out
 Engaging Learning: Keeps users interested and helps them retain information better.
 Accessible Anytime: Works on multiple devices, so users can take quizzes wherever they are.
+
+*OUTPUT*
+![Image](https://github.com/user-attachments/assets/f2c06bd8-ccd0-4952-9eaf-05549c20b5e4)
+![Image](https://github.com/user-attachments/assets/d9437b7e-1cdc-4b5f-a5df-d9c310f21c3d)
+![Image](https://github.com/user-attachments/assets/dc23dfb0-6859-486d-b520-1ee0c0dd6c31)
 Personalized Experience: Adapts to the user’s preferences, making it suitable for different purposes.
 Instant Results: No need to wait; users can see their performance immediately.
 Final Thoughts
