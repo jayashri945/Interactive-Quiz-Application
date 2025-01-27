@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.freepik.com/premium-photo/question-marks-blue-background_220873-9289.jpg?w=1380");
+    background-size: contain;  /* Ensure the whole image fits inside */
+    background-position: center;  /* Center the image in the viewport */
+    background-repeat: no-repeat; /* Prevent tiling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+.start-screen {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#start-btn {
+    background: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 14px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#start-btn:hover {
+    background: #45a049;
+}
+
+
+.app {
+    background-color: whitesmoke;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Deep shadow for contrast */
+    text-align: center;
+    backdrop-filter: blur(12px); /* Stronger blur effect */
+}
+
+.app h1 {
+    font-size: 30px;
+    color: #191970;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#progress {
+    font-size: 16px;
+    color: #4e4376;
+    margin-bottom: 15px;
+}
+
+.quiz h2 {
+    font-size: 20px;
+    color: #2b5876;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn {
+    background: #B6D0E2;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: blue; /* Brightened hover effect */
+    transform: scale(1.05);
+}
+
+.btn:disabled {
+    background: #ddd;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+#next-btn {
+    background: #13274F; /* Aqua blue for Next button */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    width: 120px;
+    padding: 14px;
+    margin-top: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+    transition: background 0.3s;
+    margin-left: auto;
+    margin-right: auto; /* Centering the Next button */
+}
+
+#next-btn:hover {
+    background: #6699CC;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;     /* Center the content vertically */
+}
+
+.correct {
+    background: #1dd1a1 !important; /* Bright green for correct answers */
+    color: #fff;
+}
+
+.incorrect {
+    background: #ff6b6b !important; /* Red for incorrect answers */
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .app {
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    #next-btn {
+        font-size: 14px;
+    }
+}
